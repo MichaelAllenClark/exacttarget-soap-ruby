@@ -12,7 +12,7 @@ This repo is a collection of examples for accessing [ExactTarget][0]'s SOAP API 
 
 ## Getting Started ##
 
-- Copy the creds.rb.template file to creds.php
+- Copy the creds.rb.template file to creds.rb
 - Open creds.rb and input the appropriate values for username/password and WSDL
  - Requires an ExactTarget user with 'API User' and 'Grant the user access to the web services' permissions
 - Navigate to samples directory
