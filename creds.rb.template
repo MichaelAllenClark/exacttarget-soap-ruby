@@ -2,4 +2,6 @@ $username = 'ccc'
 $password = 'ccc'
 #Values below will vary depending on your account, more details: http://help.exacttarget.com/en/technical_library/web_service_guide/getting_started_developers_and_the_exacttarget_api/
 $endpoint = 'https://webservice.exacttarget.com/Service.asmx'
-$wsdl = 'https://webservice.exacttarget.com/etframework.wsdl'
+# The public WSDL Location is https://webservice.exacttarget.com/etframework.wsdl 
+# There are significant performance gains if a local copy of the WSDL is referenced instead of using the URL above.
+$wsdl = '../etframework.wsdl'
